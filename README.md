@@ -5,7 +5,8 @@ Fulfill the below user stories. Use whichever libraries or APIs you need. Give i
 1. User Story: I can see whether freeCodeCamp is currently streaming on Twitch.tv.
 2. User Story: I can click the status output and be sent directly to the freeCodeCamp's Twitch.tv channel.
 3. User Story: if a Twitch user is currently streaming, I can see additional details about what they are streaming.
-4. Hint: See an example call to Twitch.tv's JSONP API at http://forum.freecodecamp.org/t/use-the-twitchtv-json-api/19541.
+
+Hint: See an example call to Twitch.tv's JSONP API at http://forum.freecodecamp.org/t/use-the-twitchtv-json-api/19541.
 
 Hint: The relevant documentation about this API call is here: https://dev.twitch.tv/docs/v5/reference/streams/#get-stream-by-user.
 
