@@ -1,0 +1,38 @@
+@import '../../stylesheet/shared/all';
+
+.card{
+    background: linear-gradient(135deg, #C9D6FF,#E2E2E2);
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 10px $shadow-color;
+    &__link{
+        text-decoration: none;
+        &:focus{
+            outline: none;
+            background-color: $focus-color;
+        }
+    }
+    &__name{
+        color: $text-color;
+        padding: 5px 0;
+        &--online{
+            color: $main-color;
+        }
+        &--offline{
+            color: $secondary-color;
+        }
+    }
+    &__img{
+        height: 200px;
+        width: 200px;
+    } 
+    &__info{
+        font-size: 0.8em;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-transform: capitalize;
+    }
+}

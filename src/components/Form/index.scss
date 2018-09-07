@@ -1,0 +1,20 @@
+@import '../../stylesheet/shared/all';
+
+.form{
+    text-align: center;
+    margin: 20px 0;
+    &__input{
+        padding: 8px;
+        border: none;
+        border-bottom: 2px solid $secondary-color;
+        color: $text-color;
+        font-size: 1.2em;
+        width: 150px;
+        &:focus{
+            outline: none;
+            background-color: $focus-color;
+            color: $nav-color;
+        }
+    }
+}
+

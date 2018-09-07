@@ -1,0 +1,38 @@
+@import '../../stylesheet/shared/all';
+
+@mixin item($underline-color:transparent){
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: "Roboto Slab";
+    text-decoration: underline;
+    text-decoration-color: $underline-color;
+    background-color: $nav-color;
+    border: none;
+    margin: 0 5px;
+    &:focus{
+        outline: none;
+        background-color: $focus-color;
+    }
+    @media only screen and (min-width: $breakpoint-medium) {
+        font-size: 2em;
+    }
+}
+
+.navbar{
+    margin: 20px auto;
+    padding: 0;
+    background: $nav-color;
+    color: $text-color;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    &__item{
+        @include item();
+        &--online{
+            @include item($main-color);
+        }
+        &--offline{
+            @include item($secondary-color);
+        }
+    }
+}

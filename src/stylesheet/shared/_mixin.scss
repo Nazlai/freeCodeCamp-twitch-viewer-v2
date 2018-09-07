@@ -1,0 +1,15 @@
+@mixin buttonPress($property: $main-color){
+    background: darken($property, 10%);
+}
+
+@mixin btn($button-color:$main-color){
+    padding: 10px;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px;
+    color: $nav-color;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: $button-color;
+    outline: none;
+}
