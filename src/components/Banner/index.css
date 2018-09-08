@@ -13,7 +13,8 @@ body {
   font-size: 1.2em;
   text-align: center;
   padding: 20px;
-  word-spacing: 2px; }
+  word-spacing: 2px;
+  margin: 0 auto; }
   @media only screen and (min-width: 365px) {
     .title {
       font-size: 1.5em; } }
