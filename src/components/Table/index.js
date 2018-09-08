@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../Card/index';
-import styles from './index.scss';
+import styles from './index.css';
 
 const Table = function(props){
   return (

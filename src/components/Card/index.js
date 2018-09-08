@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Button from '../Button/index';
-import './index.scss';
+import './index.css';
 
 class Card extends Component{
   constructor(props){
