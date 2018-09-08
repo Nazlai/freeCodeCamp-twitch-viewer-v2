@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Tajawal|Roboto+Slab");
+body {
+  font: 1rem/1.5 "Roboto Slab",Helvetica, Arial, sans-serif; }
+
+.btn--form {
+  padding: 10px;
+  text-transform: uppercase;
+  border: none;
+  margin: 10px;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background-color: #29dab3;
+  outline: none; }
+  .btn--form:active {
+    background: #1fb191; }
+.btn--card-online {
+  padding: 10px;
+  text-transform: uppercase;
+  border: none;
+  margin: 10px;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background-color: #29dab3;
+  outline: none; }
+  .btn--card-online:active {
+    background: #1fb191; }
+.btn--card-offline {
+  padding: 10px;
+  text-transform: uppercase;
+  border: none;
+  margin: 10px;
+  color: #fff;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background-color: #ff8800;
+  outline: none; }
+  .btn--card-offline:active {
+    background: #cc6d00; }
+
+/*# sourceMappingURL=index.css.map */

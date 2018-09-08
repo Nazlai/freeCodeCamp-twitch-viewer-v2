@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Button from '../Button/index';
-import styles from './index.scss';
+import './index.scss';
 
 class Card extends Component{
   constructor(props){
@@ -14,22 +14,22 @@ class Card extends Component{
   render(){
     const {item} = this.props;
     return (
-      <div className={styles.card}>
+      <div className="card">
         <a
-          className={styles.card__link} 
+          className="card__link" 
           href={item.url}
           target="_blank"
         >
             <img 
               src={item.logo} 
               alt={`logo of ${item.name}`}
-              className={styles.card__img}
+              className="card__img"
             />
-            <h2 className={item.stream? styles["card__name--online"] : styles["card__name--offline"]}>
+            <h2 className={item.stream? "card__name--online": "card__name--offline"}>
               {item.display_name}
             </h2>
           </a>
-          <section className={styles.card__info}>
+          <section className="card__info">
             <p>{item.game}</p>
             <p>{item.status}</p>
           </section>

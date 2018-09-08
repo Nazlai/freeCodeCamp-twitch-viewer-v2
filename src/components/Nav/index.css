@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Tajawal|Roboto+Slab");
+body {
+  font: 1rem/1.5 "Roboto Slab",Helvetica, Arial, sans-serif; }
+
+.navbar {
+  margin: 20px auto;
+  padding: 0;
+  background: #fff;
+  color: #202020;
+  display: flex;
+  list-style: none;
+  justify-content: center; }
+  .navbar__item {
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: "Roboto Slab";
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    background-color: #fff;
+    border: none;
+    margin: 0 5px; }
+    .navbar__item:focus {
+      outline: none;
+      background-color: #da293e; }
+    @media only screen and (min-width: 497px) {
+      .navbar__item {
+        font-size: 2em; } }
+    .navbar__item--online {
+      padding: 10px;
+      font-size: 1.5em;
+      font-family: "Roboto Slab";
+      text-decoration: underline;
+      text-decoration-color: #29dab3;
+      background-color: #fff;
+      border: none;
+      margin: 0 5px; }
+      .navbar__item--online:focus {
+        outline: none;
+        background-color: #da293e; }
+      @media only screen and (min-width: 497px) {
+        .navbar__item--online {
+          font-size: 2em; } }
+    .navbar__item--offline {
+      padding: 10px;
+      font-size: 1.5em;
+      font-family: "Roboto Slab";
+      text-decoration: underline;
+      text-decoration-color: #ff8800;
+      background-color: #fff;
+      border: none;
+      margin: 0 5px; }
+      .navbar__item--offline:focus {
+        outline: none;
+        background-color: #da293e; }
+      @media only screen and (min-width: 497px) {
+        .navbar__item--offline {
+          font-size: 2em; } }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Tajawal|Roboto+Slab");
+body {
+  font: 1rem/1.5 "Roboto Slab",Helvetica, Arial, sans-serif; }
+
+.banner {
+  margin: 0 auto;
+  background: linear-gradient(45deg, #22c1c3, #fdbb2d);
+  font-family: "Roboto"; }
+
+.title {
+  text-transform: uppercase;
+  color: #e2e2e2;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 20px;
+  word-spacing: 2px; }
+  @media only screen and (min-width: 365px) {
+    .title {
+      font-size: 1.5em; } }
+  @media only screen and (min-width: 497px) {
+    .title {
+      font-size: 2em;
+      padding: 30px; } }
+
+/*# sourceMappingURL=index.css.map */

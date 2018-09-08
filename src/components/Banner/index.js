@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './index.scss';
+import './index.css';
 
 
 const Banner = (props) => {
   return (
-    <header className={styles.banner}>
-      <h1 className={styles.title}>{props.children}</h1>
+    <header className="banner">
+      <h1 className="title">{props.children}</h1>
     </header>
   );
 };

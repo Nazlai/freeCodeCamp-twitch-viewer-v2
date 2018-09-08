@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './index.scss'
+import './index.css'
 
 const Button = function({children, onClick, className, type}){
   return (
     <button
       onClick={onClick}
-      className={styles[className]}
+      className={className}
       type={type}
     >
       {children}

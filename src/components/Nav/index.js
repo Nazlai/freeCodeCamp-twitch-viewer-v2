@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import styles from './index.scss';
+import './index.scss';
 
 class Nav extends Component{
   constructor(props){
@@ -23,7 +23,7 @@ class Nav extends Component{
         <ul className={styles.navbar}>
         <li>
           <button 
-            className={styles["navbar__item--online"]} 
+            className="navbar__item--online"
             onClick={this.checkOnline}
           >
           Online
@@ -31,7 +31,7 @@ class Nav extends Component{
         </li>
         <li>
           <button 
-            className={styles.navbar__item}
+            className="navbar__item"
             onClick={this.checkAll}
           >
           All
@@ -39,7 +39,7 @@ class Nav extends Component{
         </li>
         <li>
           <button 
-            className={styles["navbar__item--offline"]}
+            className="navbar__item--offline"
             onClick={this.checkOffline}
           >
           Offline

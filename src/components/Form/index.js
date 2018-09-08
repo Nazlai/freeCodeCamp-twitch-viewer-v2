@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Button from '../Button/index';
-import styles from './index.scss';
+import './index.scss';
 
 class Form extends Component{
   constructor(props){
@@ -26,14 +26,14 @@ class Form extends Component{
   render(){
     return (
       <form 
-        className={styles.form}
+        className="form"
         onSubmit={this.fetchSearch}
       >
         <input 
           type="text" 
           value={this.props.value}
           onChange={this.handleSearch}
-          className={styles.form__input}
+          className="form__input"
         />
         <Button
           className="btn--form"
