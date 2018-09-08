@@ -20,7 +20,7 @@ class Nav extends Component{
   render(){
     return (
       <nav>
-        <ul className={styles.navbar}>
+        <ul className="navbar">
         <li>
           <button 
             className="navbar__item--online"
