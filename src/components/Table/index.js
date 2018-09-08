@@ -4,7 +4,7 @@ import styles from './index.scss';
 
 const Table = function(props){
   return (
-    <div className={styles.table}>
+    <div className="table">
       {
         props.list.filter(check(props.status)).map((item) => {
           return <Card key={item._id} item={item} handleRemove={props.handleRemove}/>
