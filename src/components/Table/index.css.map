@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAQ,iFAAyE;AAEjF,IAAI;EACA,IAAI,EAAE,mDAAmD;;ACD7D,MAAM;EACF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,SAAS,EAAE,IAAI",
+"mappings": "AAAQ,iFAAyE;AAEjF,IAAI;EACA,IAAI,EAAE,mDAAmD;;ACD7D,MAAM;EACF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;EAC7B,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,IAAI",
 "sources": ["../../stylesheet/util/_typography.scss","index.scss"],
 "names": [],
 "file": "index.css"

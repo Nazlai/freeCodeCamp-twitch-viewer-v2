@@ -5,6 +5,7 @@ body {
 .table {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding-bottom: 40px; }
 
 /*# sourceMappingURL=index.css.map */

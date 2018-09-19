@@ -3,9 +3,8 @@ body {
   font: 1rem/1.5 "Roboto Slab",Helvetica, Arial, sans-serif; }
 
 .navbar {
-  margin: 20px auto;
-  padding: 0;
-  background: #fff;
+  padding: 20px 0;
+  background: transparent;
   color: #202020;
   display: flex;
   list-style: none;
@@ -16,7 +15,7 @@ body {
     font-family: "Roboto Slab";
     text-decoration: underline;
     text-decoration-color: transparent;
-    background-color: #fff;
+    background-color: transparent;
     border: none;
     margin: 0 5px; }
     .navbar__item:focus {
@@ -31,7 +30,7 @@ body {
       font-family: "Roboto Slab";
       text-decoration: underline;
       text-decoration-color: #29dab3;
-      background-color: #fff;
+      background-color: transparent;
       border: none;
       margin: 0 5px; }
       .navbar__item--online:focus {
@@ -46,7 +45,7 @@ body {
       font-family: "Roboto Slab";
       text-decoration: underline;
       text-decoration-color: #ff8800;
-      background-color: #fff;
+      background-color: transparent;
       border: none;
       margin: 0 5px; }
       .navbar__item--offline:focus {

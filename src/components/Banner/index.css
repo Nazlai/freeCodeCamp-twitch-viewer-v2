@@ -5,22 +5,23 @@ body {
 .banner {
   margin: 0 auto;
   background: linear-gradient(45deg, #22c1c3, #fdbb2d);
-  font-family: "Roboto"; }
+  font-family: "Roboto";
+  padding: 30px; }
+  @media only screen and (min-width: 497px) {
+    .banner {
+      padding: 40px; } }
 
 .title {
   text-transform: uppercase;
   color: #e2e2e2;
   font-size: 1.2em;
   text-align: center;
-  padding: 20px;
-  word-spacing: 2px;
-  margin: 0 auto; }
+  word-spacing: 2px; }
   @media only screen and (min-width: 365px) {
     .title {
       font-size: 1.5em; } }
   @media only screen and (min-width: 497px) {
     .title {
-      font-size: 2em;
-      padding: 30px; } }
+      font-size: 2em; } }
 
 /*# sourceMappingURL=index.css.map */

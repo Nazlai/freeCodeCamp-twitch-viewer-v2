@@ -4,14 +4,15 @@ body {
 
 .form {
   text-align: center;
-  margin: 20px 0; }
+  padding-bottom: 20px; }
   .form__input {
     padding: 8px;
     border: none;
     border-bottom: 2px solid #ff8800;
     color: #202020;
     font-size: 1.2em;
-    width: 150px; }
+    width: 150px;
+    background-color: transparent; }
     .form__input:focus {
       outline: none;
       background-color: #da293e;
