@@ -45,4 +45,8 @@ table {
 body {
   font: 1rem/1.5 "Roboto Slab",Helvetica, Arial, sans-serif; }
 
+/* Background pattern from Toptal Subtle Patterns/full-bloom */
+body {
+  background: linear-gradient(rgba(255, 255, 255, 0.253), rgba(255, 255, 255, 0.253)), url("./assets/img/img__bg-pattern/full-bloom/full-bloom.png"), repeat; }
+
 /*# sourceMappingURL=index.css.map */
