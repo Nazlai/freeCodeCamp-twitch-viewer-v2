@@ -2,7 +2,7 @@
 
 .form{
     text-align: center;
-    margin: 20px 0;
+    padding-bottom: 20px;
     &__input{
         padding: 8px;
         border: none;
@@ -10,6 +10,7 @@
         color: $text-color;
         font-size: 1.2em;
         width: 150px;
+        background-color: transparent;
         &:focus{
             outline: none;
             background-color: $focus-color;
